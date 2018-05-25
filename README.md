@@ -36,3 +36,13 @@ This code path is documented [here](dist/docs-aws/index.html) (or [here](../docs
 
 ### Notes
 Note: This document is written in [Markdown](https://daringfireball.net/projects/markdown/). We like to use [Typora](https://typora.io/) and [Markdown Preview Plus](https://chrome.google.com/webstore/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl?hl=en-US) for our Markdown work.
+
+## Changes made for SBCotton Starter Project:
+*Created a parse-yaml typescript file to parse yaml files into json, using npm module "anyJson" found [here](https://www.npmjs.com/package/any-json)
+*Edited tap-ts-start.ts to import parseYaml and load test yaml file
+*Created a test yaml file and changed emails.tap-config.json to load yaml folder (Need to create a new config file for yaml folder directly)
+*Debugged and confirmed working with different yaml files.
+
+### TO DO:
+*Deploy to AWS
+*Documentation system
